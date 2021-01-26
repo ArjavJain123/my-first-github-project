@@ -53,7 +53,7 @@ def division():
     home()
 def floor():
     print("this is floor division , here you wil only get the qoutient")
-    floor1 = ("please enter the divisor\n")
+    floor1 = input("please enter the divisor\n")
     print("you have entered ", floor1)
     floor2 = input("plase enter the dividend\n")
     print("you have entered ", floor2)
@@ -62,6 +62,7 @@ def floor():
         print("your answer is ", floorr)
     except:
         print("please enter numbers only")
+     home()
 def square():
     try:
         square1 = input("type the number to be squared\n")
